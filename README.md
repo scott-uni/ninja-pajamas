@@ -6,7 +6,7 @@ An online cinema ticketing platform with seat selection, e-tickets, and QR code 
 
 - User Registration & Login
 - Cinema Events Page
-- Event Details Page
+- Event Details Page (CIN-4 — Nizomiddin)
 - Interactive Seat Selection
 - Prevent Double Booking
 - Online Payment
