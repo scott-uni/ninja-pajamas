@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema Events — Ninja Pajamas</title>
+  <link rel="stylesheet" href="../css/events.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Ninja Pajamas</a>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#" class="active">Events</a>
+      <a href="#">My Tickets</a>
+      <a href="#">Sign In</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Cinema Events</h1>
+    <p>Browse and book tickets for the latest movies and events</p>
+  </section>
+
+  <section class="filters">
+    <label>
+      City
+      <select id="city-filter">
+        <option value="">All Cities</option>
+      </select>
+    </label>
+
+    <label>
+      Venue
+      <select id="venue-filter">
+        <option value="">All Venues</option>
+      </select>
+    </label>
+
+    <label>
+      Date
+      <input type="date" id="date-filter">
+    </label>
+
+    <button id="reset-filters" class="reset-btn">Reset Filters</button>
+  </section>
+
+  <p id="events-count" class="events-count"></p>
+
+  <section id="events-grid" class="events-grid"></section>
+
+  <script src="../js/events.js"></script>
+</body>
+</html>
